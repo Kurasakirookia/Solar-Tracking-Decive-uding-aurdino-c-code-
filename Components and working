@@ -1,0 +1,51 @@
+
+SOLAR TRACKING SYSTEM
+
+Objectives
+1)   Introduction
+2)  Components
+3)  Principle
+4)  Working
+5)  Advantages
+6)  Application 
+7)  Conclusion
+                                           INTRODUCTION 
+In photovoltaic systems, trackers help minimize the angle of incidence (the angle that a ray of light makes with a line perpendicular to the surface) between the incoming light and the panel, which increases the amount of energy the installation produces.
+
+Concentrated solar photovoltaics and concentrated solar thermal have optics that directly accept sunlight, so trackers must be angled correctly to collect energy.
+All concentrated solar systems have trackers because the systems do not produce energy unless directed correctly toward the sun
+
+COMPONENTS
+•	Arduino Uno
+•	SG 360 180 Degree servo motor
+•	Power supply for Arduino
+•	5mm LDR
+•	connecting wires
+•	Solar Panel (use the small size for this prototype)
+•	1k resistor
+
+PRINCIPLE
+PV solar trackers adjust the direction that a solar panel is facing according to the position of the Sun in the sky. By keeping the panel perpendicular to the Sun, more sunlight strikes the solar panel, less light is reflected, and more energy is absorbed. That energy can be converted into power.
+
+WORKING
+•	  The solar panel uses photovoltaic cells (PV cells). The PV cells detect the light intensity and according to that, the tracker adjusts the direction that a solar panel to the position of the Sun in the sky.
+
+
+
+
+•	   Every time, the tracker adjusts the panel perpendicular to the Sun so more sunlight strikes the solar panel, less light is reflected. Hence, it absorbs more energy which can be converted into power.
+•	S In this Prototype, we are using the LDR sensor to detect the light(sun) intensity and servo motors for automatic rotation of the panel using the Arduino microcontroller. Arduino Uno board uses to control the motor as per the output of the LDR sensor. You can use the potentiometer also to operate this panel manually.
+
+
+ 
+ADVANTAGE 
+•	 The automatic solar tracking system is easy to implement since its Construction is simple.
+•	With the implementation the proposed system the additional energy generated is around 25% to 30% with very less consumption by the system itself.
+•	The solar panel with the sun in order to extract maximum energy falling on it renewable energy is rapidly gaining importance as an energy resource as fossil fuel prices fluctuate.
+•	Can give 40% more electricity than a non moving solar panel.
+
+APPLICATIONS
+•	This system software and hardware can be used to drive a real and very huge solar panel.
+•	The computer and System Control Unit would have a wireless communication with the mechanical structure of solar panel.
+•	To make emergency control better more powerful microcontrollers e.g. PIC 16F877A would be used.
+
